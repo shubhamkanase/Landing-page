@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* home section  */
+
+
+.main {
+    background-color: rgb(32, 38, 51);
+    height: 550px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.image1 {
+
+    padding-left: 200px;
+    padding-top: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+
+}
+
+.navbar ul {
+    display: flex;
+    padding-right: 200px;
+    list-style-type: none;
+    gap: 35px;
+    font-size: 20px;
+    color: aliceblue;
+
+
+}
+
+.navbar ul li a {
+    color: aliceblue;
+}
+
+
+.media {
+
+    padding-left: 200px;
+    padding-top: 100px;
+
+
+}
+
+.media h1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.media p {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.btn {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    color: rgb(39, 39, 241);
+}
+
+.image2 {
+    display: flex;
+    height: 250px;
+    width: 200px;
+    padding-left: 800px;
+    margin-top: -200px;
+}
+
+
+/* some information section  */
+
+
+.infoheader {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.jpg {
+    height: 200px;
+    width: 200px;
+}
+
+
+/* quets section  */
+
+
+.qtes {
+    background-color: rgb(221, 221, 221);
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+.things h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.things p {
+    margin-left: 800px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* sign up section  */
+
+
+.action {
+    padding: 40px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid black;
+    background-color: skyblue
+}
+
+.row{
+    display: flex;
+}
+.btn2{
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.col-2 h1{
+    font-size: 40px;
+}
+.col-2 p{
+    font-size: 20px;
+}
+
+
+/* footer section  */
+.ftr{
+    text-align: center;
+    background-color:rgb(32, 38, 51);
+    height: 70px;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+.ftr p{
+    padding:20px;
+}
